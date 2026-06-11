@@ -115,13 +115,6 @@
       display: none;
     }
 
-    body[data-route="home"][data-home-mode="domestic"] .content {
-      overflow: hidden;
-      overscroll-behavior: none;
-      touch-action: manipulation;
-      cursor: default;
-    }
-
     [data-drag-scroll].drag-scroll-active {
       cursor: grabbing;
       user-select: none;

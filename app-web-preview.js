@@ -820,7 +820,7 @@
       document.body.dataset.homeMode = state.homeMode;
       endHospitalDrag();
       endDragScroll();
-      if (state.route === "quickPayment" || (state.route === "home" && state.homeMode === "domestic")) {
+      if (state.route === "quickPayment") {
         content.removeAttribute("data-drag-scroll");
       } else {
         content.setAttribute("data-drag-scroll", "");
