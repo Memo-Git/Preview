@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="240" viewBox="0 0 360 240" role="img" aria-label="Dental implant background">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7fbff"/>
+      <stop offset="1" stop-color="#e6f7f3"/>
+    </linearGradient>
+    <linearGradient id="tooth" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#eaf3ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="360" height="240" rx="28" fill="url(#bg)"/>
+  <circle cx="82" cy="54" r="52" fill="#e5efff"/>
+  <circle cx="286" cy="194" r="76" fill="#d9f6ef"/>
+  <path d="M138 50c24-16 40 2 52 2s28-18 52-2c23 15 22 52 6 88-14 31-17 70-39 70-15 0-15-43-31-43s-16 43-31 43c-22 0-25-39-39-70-16-36-17-73 30-88z" fill="url(#tooth)" stroke="#91b7f4" stroke-width="4"/>
+  <path d="M178 154v60" stroke="#0f766e" stroke-width="12" stroke-linecap="round"/>
+  <path d="M158 180h40M158 202h40" stroke="#0f766e" stroke-width="8" stroke-linecap="round"/>
+  <path d="M236 70c20 12 28 36 18 64" fill="none" stroke="#f5a524" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="260" cy="64" r="11" fill="#2563eb"/>
+  <rect x="48" y="166" width="88" height="18" rx="9" fill="#cfe1ff"/>
+  <rect x="52" y="194" width="116" height="18" rx="9" fill="#cfeee8"/>
+</svg>

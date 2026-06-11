@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>星火医疗 App 预览</title>
+  <link rel="stylesheet" href="app-web-preview.css?v=preserve-home-mode-20260608" />
+</head>
+<body>
+  <main class="page">
+    <section class="app" aria-label="星火医疗 App 预览" data-testid="mobile-preview">
+      <div class="status"><span>09:41</span><span>星火医疗</span><span>5G 100%</span></div>
+      <div class="content" id="content" data-testid="content" data-drag-scroll></div>
+      <nav class="bottom" aria-label="主导航">
+        <button class="tab" data-route="home" data-testid="tab-home"><span class="tab-icon"><svg class="ui-icon" aria-hidden="true"><use href="icons/spark-medical-icons.svg#home"></use></svg></span><span>首页</span></button>
+        <button class="tab" data-route="ai" data-testid="tab-ai"><span class="tab-icon"><svg class="ui-icon" aria-hidden="true"><use href="icons/spark-medical-icons.svg#ai"></use></svg></span><span>AI助手</span></button>
+        <button class="tab" data-route="profile" data-testid="tab-profile"><span class="tab-icon"><svg class="ui-icon" aria-hidden="true"><use href="icons/spark-medical-icons.svg#user"></use></svg></span><span>个人中心</span></button>
+      </nav>
+      <div class="toast" id="toast" data-testid="toast"></div>
+    </section>
+  </main>
+
+  <script src="app-web-preview.data.js?v=preserve-home-mode-20260608" defer></script>
+  <script src="app-web-preview.components.js?v=preserve-home-mode-20260608" defer></script>
+  <script src="app-web-preview.routes.js?v=preserve-home-mode-20260608" defer></script>
+  <script src="app-web-preview.js?v=preserve-home-mode-20260608" defer></script>
+</body>
+</html>
+
